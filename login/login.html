@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/login.css">
+  <title>DREAN HOUSE-REGISTRO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <div class="container">
+    <div class="login">
+      <h3>Bienvenido a DREAN-HOUSE Registrese</h3>
+      <div class="login1"><center>
+        <a href="../Usuario/user.html"><button class="cuenta"><i class="fas fa-user"></i>Crear cuenta</button></a>
+      </div></center>
+    </div>
+  </div>
+
+  <!-- SDK FIREBASE -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAXIuH1p1HOmj5wmFtRTqA3gst4Us9iqvQ",
+      authDomain: "cinestres-firebase.firebaseapp.com",
+      projectId: "cinestres-firebase",
+      storageBucket: "cinestres-firebase.appspot.com",
+      messagingSenderId: "638218076143",
+      appId: "1:638218076143:web:d59d33eea716c9a38d401a"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="../Javascript/login.js"></script>
+
+</body>
+
+</html>
